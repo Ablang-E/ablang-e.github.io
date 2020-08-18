@@ -8,7 +8,7 @@ import Resume from './resume';
 
 const Main = () => (
     <Switch>
-        <Route exact path="/" component = {LandingPage} />
+        <Route exact path="/landingpage" component = {LandingPage} />
         <Route path="/aboutme" component = {About} />
         <Route path="/contact" component = {Contact} />
         <Route path="/resume" component = {Resume} />
@@ -16,6 +16,6 @@ const Main = () => (
 
     </Switch>
 
-); 
+);
 
 export default Main;
