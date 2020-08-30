@@ -13,7 +13,7 @@ function App() {
           to="/">My Portfolio</Link>} scroll>
         </Header>
         <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}}
-          to="/">My Portfolio</Link>} scroll>
+          to="/">Home Page</Link>} scroll>
             <Navigation>
             <Link to="/aboutme">CS 428 Projects</Link>
                 <Link to="/resume">Resume</Link>
