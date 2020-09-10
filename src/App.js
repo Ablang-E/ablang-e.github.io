@@ -10,10 +10,10 @@ function App() {
     <div className="demo-big-content">
     <Layout>
         <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}}
-          to="/portfolio">My Portfolio</Link>} scroll>
+          to="/">My Portfolio</Link>} scroll>
         </Header>
         <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}}
-          to="/portfolio">Home Page</Link>} scroll>
+          to="/">Home Page</Link>} scroll>
             <Navigation>
             <Link to="/aboutme">CS 428 Projects</Link>
                 <Link to="/resume">Resume</Link>
