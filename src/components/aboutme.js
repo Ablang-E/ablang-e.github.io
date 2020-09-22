@@ -4,7 +4,7 @@ import { Grid, Cell} from 'react-mdl';
 class About extends Component {
     render() {
         return(
-            <div></div>
+            <div>hjhk</div>
         )
     }
 }
