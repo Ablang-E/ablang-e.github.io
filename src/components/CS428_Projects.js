@@ -4,7 +4,10 @@ import { Grid, Cell} from 'react-mdl';
 class About extends Component {
     render() {
         return(
-            <div>
+            <div style={{width: '100%', margin: 'auto'}}>
+            <Grid className = 'csPage'>
+            <Cell col={12}>
+            <div className = 'csPlate'>
             <h1>
             CS 428 Project 1
             </h1>
@@ -44,6 +47,9 @@ class About extends Component {
             Sun texture: https://www.solarsystemscope.com/textures/
             Compass texture: https://www.solarsystemscope.com/textures/
             </p>
+            </div>
+            </Cell>
+            </Grid>
             </div>
         )
     }
