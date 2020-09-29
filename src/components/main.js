@@ -9,7 +9,7 @@ import Resume from './resume';
 const Main = () => (
     <Switch>
         <Route exact path="/" component = {LandingPage} />
-        <Route path={process.env.PUBLIC_URL + '/aboutme'} component = {About} />
+        <Route path="/aboutme" component = {About} />
         <Route path="/contact" component = {Contact} />
         <Route path="/resume" component = {Resume} />
         <Route path="/projects" component = {Projects} />
