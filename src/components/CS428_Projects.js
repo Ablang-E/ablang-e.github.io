@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
 import { Grid, Cell} from 'react-mdl';
+import image1 from './1.JPG'
+import image2 from './2.JPG'
+import image3 from './3.JPG'
+import image4 from './4.JPG'
+import image5 from './5.JPG'
 
 class About extends Component {
     render() {
@@ -47,6 +52,49 @@ class About extends Component {
             Sun texture: https://www.solarsystemscope.com/textures/
             Compass texture: https://www.solarsystemscope.com/textures/
             </p>
+            <p>
+            Images:
+            </p>
+
+            <div>
+            <img
+            src = {image1}
+            className = "image1"
+            />
+            </div>
+            <p></p>
+
+            <div>
+            <img
+            src = {image2}
+            className = "image2"
+            />
+            </div>
+            <p></p>
+
+            <div>
+            <img
+            src = {image3}
+            className = "image3"
+            />
+            </div>
+            <p></p>
+
+            <div>
+            <img
+            src = {image4}
+            className = "image4"
+            />
+            </div>
+            <p></p>
+
+            <div style ={{margin: 'auto'}}>
+            <img
+            src = {image5}
+            className = "image5"
+            />
+            <p></p>
+            </div>
             </div>
             </Cell>
             </Grid>
