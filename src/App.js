@@ -15,7 +15,7 @@ function App() {
         <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}}
           to="/">Home Page</Link>} scroll>
             <Navigation>
-            <Link to="/aboutme">CS 428 Projects</Link>
+            <Link to="/CS428_Projects">CS 428 Projects</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
