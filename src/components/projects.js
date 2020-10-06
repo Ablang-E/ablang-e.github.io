@@ -6,12 +6,9 @@ class Projects extends Component {
     render() {
         return(
             <div className='headers'>
-            <h style={{paddingLeft: '1.2em'}}>Project Name</h>
-            <h style={{paddingLeft: '3.8em'}}>Description</h>
             <Grid>
 
-
-
+            <div className = "csPlate">
             <Cell col={7}>
             <ProjectsComp
             projectName="Rock Paper Scissor Lizard Splock"
@@ -38,6 +35,7 @@ class Projects extends Component {
             />
 
             </Cell>
+            </div>
             </Grid>
             </div>
 

@@ -15,16 +15,16 @@ class Resume extends Component {
                         <div style={{textAlign: 'center'}}>
                         </div>
                         <h2 style={{paddingTop: '2em'}}>Eric Ablang</h2>
-                        <h4 style={{color: 'green'}}>Student Programmer</h4>
+                        <h4 style={{color:'#20C20E'}}>Student Programmer</h4>
                         <hr style={{borderTop: '3px solid #27221F', width: '50%'}}/>
                         <h2>Location</h2>
-                        <p style ={{fontSize: '20px'}}>Chicago, Illinois</p>
+                        <p style ={{fontSize: '20px'}, {color:'white'}}>Chicago, Illinois</p>
                         <hr style={{borderTop: '3px solid #27221F', width: '50%'}}/>
                         <h2>Phone</h2>
-                        <p style ={{fontSize: '20px'}}>(847) 431-7513</p>
+                        <p style ={{fontSize: '20px'}, {color:'white'}}>(847) 431-7513</p>
                         <hr style={{borderTop: '3px solid #27221F', width: '50%'}}/>
                         <h2>Email</h2>
-                        <p style ={{fontSize: '20px'}}>ablange.eric@gmail.com</p>
+                        <p style ={{fontSize: '20px'}, {color:'white'}}>ablange.eric@gmail.com</p>
                     </Cell>
 
                     <Cell className="resume-right-col" col={8}>

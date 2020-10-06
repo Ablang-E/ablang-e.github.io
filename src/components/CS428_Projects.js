@@ -13,22 +13,22 @@ class About extends Component {
             <Grid className = 'csPage'>
             <Cell col={12}>
             <div className = 'csPlate'>
-            <h1>
+            <h1 style ={{color:'white'}}>
             CS 428 Project 1
             </h1>
-            <p>
+            <p style ={{color:'white'}}>
             Hello! Welcome to my CS 428 Project 1 page. This project is based off using augmented reality technology to show you widgets that display useful information.
             The project revovles around using a webcam. It uses the image targets from Vuphoria and when the webcam detects the image target, it will display the
             correct widget, based off of the image target it is detecting. This project contains a couple widgets such as a Time, Date, Temperature, Humidity,
             Wind Direction, Wind Speed, and Current Weather Conditions. The data that is shown is accurate to the location it is grabbing the data from (Open Weather Map).
             </p>
-            <p>
+            <p style ={{color:'white'}}>
             GitHub Link: https://github.com/Ablang-E/CS428_Project1
             </p>
-            <p>
+            <p style ={{color:'white'}}>
             YouTube Demonstration: https://youtu.be/1TdQRwDY634
             </p>
-            <p>
+            <p style ={{color:'white'}}>
             Discussion:
 
             I think that later down the road, if people were to have openly available AR glasses to use, some of these widgets could be very useful and some could not. For example, if there was a widget that is linked to your To-Do list on your phone, it would be useful to be able to see this list right in front of you instead of having to pull out your phone and sort through it manually. Widgets inside these AR glasses can definitely make life a lot easier by saving us time having to look for the things we are looking for and overall just more convenient. Life right now isn’t totally on the idea of augmented reality glasses but it is definitely starting to get to that point. If more widgets are created for these glasses and these glasses are affordable, i’m sure a lot more people would be willing to use these glasses.
@@ -38,7 +38,7 @@ class About extends Component {
 
 
             </p>
-            <p>
+            <p style ={{color:'white'}}>
             References:
             http://soundbible.com/636-Windy.html
             http://soundbible.com/634-Wind-Blowing.html
@@ -52,7 +52,7 @@ class About extends Component {
             Sun texture: https://www.solarsystemscope.com/textures/
             Compass texture: https://www.solarsystemscope.com/textures/
             </p>
-            <p>
+            <p style ={{color:'white'}}>
             Images:
             </p>
 

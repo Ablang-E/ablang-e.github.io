@@ -1,27 +1,25 @@
 .header-color {
-  background: #000046;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: rgb(205,201,201);
+background: linear-gradient(90deg, rgba(205,201,201,1) 0%, rgba(124,176,255,1) 50%, rgba(223,224,224,1) 100%);
 }
 
 .landing-grid {
-  background: #000046;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url(../src/components/websiteBackground.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   text-align: center;
 
 }
 
 .csPage {
-  background: #000046;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-image: url(../src/components/websiteBackground.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   text-align: center;
 }
 
 .csPlate {
-  background-color: white;
+  background-color: #27221F;
   opacity: .8;
   width: 100%;
   margin-top: 100px;
@@ -30,9 +28,10 @@
 }
 
 .picture {
+  margin-top: 20px;
+  border-radius: 25px;
+  margin-bottom: 20px;
   height: 250px;
-  padding-top: 7em;
-  transform: rotate(90deg);
 }
 
 .logo {
@@ -47,7 +46,7 @@
 }
 
 .banner-text {
-  background-color: black;
+  background-color: #27221F;
   opacity: .8;
   width: 75%;
   margin-top: 100px;
@@ -103,10 +102,9 @@
   height: 100%;
   justify-content: center;
   padding-top: 2em;
-  background: #000046;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #1CB5E0, #000046);
-
+  background-image: url(../src/components/websiteBackground.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .contact-grid {
@@ -116,9 +114,9 @@
   height: 100%;
   color: white;
   margin-bottom: 20px;
-  background: #000046;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #1CB5E0, #000046);
+  background-image: url(../src/components/websiteBackground.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .contact-grid h2 {
@@ -143,6 +141,7 @@
 
 .resume-right-col {
   background: #27221F;
+  opacity: 80%;
   color:white;
   padding: 2em;
 }
@@ -153,15 +152,15 @@
 }
 
 .resume-Grid {
-  background: #000046;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #1CB5E0, #000046);
+  background-image: url(../src/components/websiteBackground.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .headers {
-  background: #000046;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #1CB5E0, #000046);
+  background-image: url(../src/components/websiteBackground.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .headers h {
@@ -171,4 +170,12 @@
 
 .project-desc h {
 
+}
+
+.projectNameCSS {
+  color:white;
+}
+
+.bar {
+  color:#20C20E;
 }
