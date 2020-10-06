@@ -10,7 +10,7 @@ function App() {
     <div className="demo-big-content">
     <Layout>
         <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}}
-          to="/">My Portfolio</Link>} scroll>
+          to="/">ablang-e.github.io</Link>} scroll>
         </Header>
         <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}}
           to="/">Home Page</Link>} scroll>
